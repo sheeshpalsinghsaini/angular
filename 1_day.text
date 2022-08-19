@@ -1,0 +1,23 @@
+# Angular : 
+    is a javascript front-end framework.
+
+    requirement :
+        1. HTML
+        2. CSS
+        3. Javascript(ES6 New features).
+        
+
+    TypeScript use for Angular.
+        -> TypeScript is the supper set of javascript.
+        
+
+    
+    in our web application we are following Client Server Architecture.
+
+                |                        |          |
+                |                        |          |
+                |                        |          |    
+       Client   |                        |   Server |<-----> DB
+                |                        |          |    
+                |                        |          |
+                |                        |          |    
