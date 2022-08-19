@@ -21,3 +21,83 @@
                 |                        |          |    
                 |                        |          |
                 |                        |          |    
+
+
+    installing angular cli 
+        npm install -g @angular/cli 
+
+    ng help 
+    ng generate --help 
+-------------------
+    ng new <project Name>   npm new <project Name>
+    ng server       //start project. or npm start 
+
+-------------------
+
+    project structure :
+
+        angular-ecom 
+            |
+            |
+            |-> .vscode 
+            |-> node_modules            // contains all dependencies
+            |-> src                     //main folder 
+            |-> .browserslistrc
+            |-> .editorconfig
+            |-> .gitignore
+            |-> angular.json        // project configuration
+            |-> karma.config.js 
+            |-> package.lock.json 
+            |-> package.json                //contains configuration of all dependencies.
+            |-> README.md 
+            |-> tsconfig.app.json 
+            |-> tsconfig.json 
+            |-> tsconfig.spec.json 
+
+        src         // contains all the component and file related to project. 
+         |
+         |-> app 
+         |-> assets 
+         |-> environments
+         |-> favicon.ico 
+         |-> index.html 
+         |-> main.ts 
+         |-> polyfills.ts 
+         |-> styles.css 
+         |-> test.ts 
+         
+
+        app 
+         |
+         |-> app-routing.module.ts 
+         |-> app.component.css          -> component css 
+         |-> app.component.html         -> component html 
+         |-> app.component.spec.ts      -> component unit testing 
+         |-> app.component.ts           -> component TypeScript
+         |-> app.module.ts 
+
+Why do we angular :
+    -> Single page Application.
+    -> Angular is component based./ reusable component.
+
+    Every component contain three thing 
+        like for Home component
+            1. hom.component.html   -> html file 
+            2. home.component.css   -> css file 
+            3. home.component.ts    -> type script file 
+        there is one more file 
+            4. home.component.spec.ts  -> use for unit testing 
+
+
+    for use this component we make a selector .
+        select = home 
+
+
+    ng generate component home          //create hoem component
+    or ng g c home 
+            create these three file 
+    CREATE src/app/components/home/home.component.css (0 bytes)         // for css 
+    CREATE src/app/components/home/home.component.html (19 bytes)       //for html 
+    CREATE src/app/components/home/home.component.spec.ts (585 bytes)   // for unit testing 
+    CREATE src/app/components/home/home.component.ts (267 bytes)        //for TypeScript
+    UPDATE src/app/app.module.ts (478 bytes)                            //update module.ts info of home component.
