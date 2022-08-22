@@ -16,9 +16,9 @@
 
                 |                        |          |
                 |                        |          |
-                |                        |          |    
-       Client   |                        |   Server |<-----> DB
-                |                        |          |    
+                |     Request by API     |          |    
+       Client   |  <------------------>  |   Server |<-----> DB
+                |    Response in JSON    |          |    
                 |                        |          |
                 |                        |          |    
 
