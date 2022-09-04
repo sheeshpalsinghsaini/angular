@@ -1,0 +1,11 @@
+# data binding :
+
+    angular follow two way data binding 
+
+
+
+     [(ngModel)]="user.password"
+
+        data can be assign both direction.
+
+        

@@ -1,0 +1,19 @@
+
+# routing :
+
+    how to setup routing in project.
+
+        1. create app-routing.module.ts  in app module.
+        2. import AppRoutingModule to AppModule in imports array.
+
+        3. declare you routers in side AppRouting module
+        4. use router-outlet tag where we want to show the components.
+
+        
+
+
+--------------------------------------
+// by default get routing in project at create time.
+
+    ng new routing-app --routing --defaults                 
+
