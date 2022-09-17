@@ -1,0 +1,43 @@
+# 5th day :
+
+    -> we will handle login token.
+
+    -> for handle the login token we will have to create few method 
+
+    we have two object to handle token 
+
+
+        1. local storage       
+
+            -> in this storage data persist for long time whenever you didn't remove it manually.
+
+
+
+        2. session storage
+            -> data persist only for a session. linke for one tabe.
+
+
+        we will use local storage to store token and user information.
+        we dont' want to lose infomation when session would be expire.
+
+        we will create a service for this.
+
+        ng g s auth-helper
+
+
+        above command create auth-helper service, which include two file 
+
+            1. auth-helper.service.spec.ts      : for testing 
+            2. auth-helper.service.ts           : service class.
+
+
+        * EventEmitter : use to update any component. without page refesh.
+
+
+
+        * Angular guard :
+
+            apply restriction to the rout navigation.
+
+
+            ng g guard user-dashboard
